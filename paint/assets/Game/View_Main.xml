@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <image id="n3_l8l1" name="n3" src="l8l13" fileName="资源/background.png" xy="0,0"/>
+    <component id="n4_l8l1" name="pen_crayon" src="l8l11b" fileName="组件/btn_pen_crayon.xml" xy="1598,54"/>
+    <component id="n5_l8l1" name="n5" src="l8l11c" fileName="组件/btn_pen_color.xml" xy="1617,164"/>
+    <component id="n7_l8l1" name="n7" src="l8l11d" fileName="组件/btn_pen_water.xml" xy="1618,276"/>
+    <component id="n8_l8l1" name="n8" src="l8l11e" fileName="组件/btn_pen_brush.xml" xy="1617,390"/>
+    <component id="n9_l8l1" name="n9" src="l8l11f" fileName="组件/btn_pen_brush1.xml" xy="1608,493"/>
+    <image id="n6_l8l1" name="n6" src="l8l16" fileName="资源/bj.png" xy="-5,10"/>
+    <list id="n10_l8l1" name="lst_color" xy="1769,180" size="94,712" layout="flow_hz" overflow="scroll" lineGap="11" defaultItem="ui://kp94r4lfl8l11q" align="center" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n16_l8l1" name="lst_canvas" src="l8l11s" fileName="组件/com_canvas.xml" xy="63,65"/>
+  </displayList>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="614,629">
+  <displayList>
+    <image id="n14_l8l1" name="n14" src="l8l12" fileName="资源/animalBody.png" xy="42,72"/>
+    <image id="n13_l8l1" name="n13" src="l8l11" fileName="资源/animal.png" xy="0,0"/>
+    <component id="n16_l8l1" name="beard" src="l8l11o" fileName="组件/com_beard.xml" xy="50,316"/>
+    <component id="n17_l8l1" name="earIn" src="l8l11j" fileName="组件/com_earIn.xml" xy="0,12"/>
+    <component id="n18_l8l1" name="earse" src="l8l11i" fileName="组件/com_earse.xml" xy="11,0"/>
+    <component id="n19_l8l1" name="eye1" src="l8l11n" fileName="组件/com_eye1.xml" xy="50,228"/>
+    <component id="n20_l8l1" name="eye2" src="l8l11m" fileName="组件/com_eye2.xml" xy="47,212"/>
+    <component id="n21_l8l1" name="eye3" src="l8l11l" fileName="组件/com_eye3.xml" xy="57,239"/>
+    <component id="n22_l8l1" name="eyebrow" src="l8l11k" fileName="组件/com_eyebrow.xml" xy="42,140"/>
+    <component id="n27_l8l1" name="circle" src="l8l11p" fileName="组件/com_circle.xml" xy="353,326"/>
+    <component id="n28_l8l1" name="wang" src="l8l11h" fileName="组件/com_wang.xml" xy="118,102"/>
+  </displayList>
+</component>

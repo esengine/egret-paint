@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="36,38" mask="n27_l8l1" hitTest="n27_l8l1">
+  <displayList>
+    <graph id="n28_l8l1" name="n28" xy="0,0" size="36,38" type="rect" lineSize="0"/>
+    <image id="n27_l8l1" name="n27" src="l8l1b" fileName="资源/circle.png" xy="0,0" size="36,38"/>
+  </displayList>
+</component>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="57,45" overflow="hidden" mask="n28_l8l1" hitTest="n28_l8l1">
+  <displayList>
+    <graph id="n29_l8l1" name="n29" xy="0,0" size="57,45" type="rect" lineSize="0"/>
+    <image id="n28_l8l1" name="n28" src="l8l114" fileName="资源/wang.png" xy="0,0"/>
+  </displayList>
+</component>

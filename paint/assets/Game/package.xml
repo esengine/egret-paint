@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="kp94r4lf">
+  <resources>
+    <image id="l8l11" name="animal.png" path="/资源/"/>
+    <image id="l8l12" name="animalBody.png" path="/资源/"/>
+    <image id="l8l13" name="background.png" path="/资源/"/>
+    <image id="l8l14" name="baidi.png" path="/资源/" scale9grid="33,216,66,432"/>
+    <image id="l8l15" name="beard.png" path="/资源/"/>
+    <image id="l8l16" name="bj.png" path="/资源/"/>
+    <image id="l8l17" name="bj_sample.png" path="/资源/"/>
+    <image id="l8l18" name="caiqian.png" path="/资源/"/>
+    <image id="l8l19" name="caiqianBC.jpg" path="/资源/"/>
+    <image id="l8l1a" name="chuanbanxia.png" path="/资源/"/>
+    <image id="l8l1b" name="circle.png" path="/资源/"/>
+    <image id="l8l1c" name="color_bg.png" path="/资源/"/>
+    <image id="l8l1d" name="complete.png" path="/资源/"/>
+    <image id="l8l1e" name="earIn.png" path="/资源/"/>
+    <image id="l8l1f" name="earOut.png" path="/资源/"/>
+    <image id="l8l1g" name="eye1.png" path="/资源/"/>
+    <image id="l8l1h" name="eye2.png" path="/资源/"/>
+    <image id="l8l1i" name="eye3.png" path="/资源/"/>
+    <image id="l8l1j" name="eyebrow.png" path="/资源/"/>
+    <image id="l8l1k" name="jiantou1.png" path="/资源/"/>
+    <image id="l8l1l" name="jiantou2.png" path="/资源/"/>
+    <image id="l8l1m" name="labi.png" path="/资源/"/>
+    <image id="l8l1n" name="labiBC.png" path="/资源/"/>
+    <image id="l8l1o" name="lajitong_1.png" path="/资源/"/>
+    <image id="l8l1p" name="maobi.png" path="/资源/"/>
+    <image id="l8l1q" name="maobiBC.png" path="/资源/"/>
+    <image id="l8l1r" name="no.png" path="/资源/"/>
+    <image id="l8l1s" name="nose.png" path="/资源/"/>
+    <image id="l8l1t" name="pingguo-ye.png" path="/资源/"/>
+    <image id="l8l1u" name="position.png" path="/资源/"/>
+    <image id="l8l1v" name="qingchu.png" path="/资源/"/>
+    <image id="l8l1w" name="quan1_1.png" path="/资源/"/>
+    <image id="l8l1x" name="quan2_1.png" path="/资源/"/>
+    <image id="l8l1y" name="quan3_1.png" path="/资源/"/>
+    <image id="l8l1z" name="shuazi.png" path="/资源/"/>
+    <image id="l8l110" name="shuaziBC.png" path="/资源/"/>
+    <image id="l8l111" name="shuicaiBC.png" path="/资源/"/>
+    <image id="l8l112" name="shuicaibi.png" path="/资源/"/>
+    <image id="l8l113" name="square.png" path="/资源/"/>
+    <image id="l8l114" name="wang.png" path="/资源/"/>
+    <image id="l8l115" name="xiangpi1.png" path="/资源/"/>
+    <image id="l8l116" name="xx_shan.png" path="/资源/"/>
+    <image id="l8l117" name="yansedikuang.png" path="/资源/"/>
+    <image id="l8l118" name="yes.png" path="/资源/"/>
+    <image id="l8l119" name="youqitong.png" path="/资源/"/>
+    <component id="l8l11a" name="View_Main.xml" path="/" exported="true"/>
+    <component id="l8l11b" name="btn_pen_crayon.xml" path="/组件/"/>
+    <component id="l8l11c" name="btn_pen_color.xml" path="/组件/"/>
+    <component id="l8l11d" name="btn_pen_water.xml" path="/组件/"/>
+    <component id="l8l11e" name="btn_pen_brush.xml" path="/组件/"/>
+    <component id="l8l11f" name="btn_pen_brush1.xml" path="/组件/"/>
+    <component id="l8l11g" name="com_animal.xml" path="/组件/" exported="true"/>
+    <component id="l8l11h" name="com_wang.xml" path="/组件/"/>
+    <component id="l8l11i" name="com_earse.xml" path="/组件/"/>
+    <component id="l8l11j" name="com_earIn.xml" path="/组件/"/>
+    <component id="l8l11k" name="com_eyebrow.xml" path="/组件/"/>
+    <component id="l8l11l" name="com_eye3.xml" path="/组件/"/>
+    <component id="l8l11m" name="com_eye2.xml" path="/组件/"/>
+    <component id="l8l11n" name="com_eye1.xml" path="/组件/"/>
+    <component id="l8l11o" name="com_beard.xml" path="/组件/"/>
+    <component id="l8l11p" name="com_circle.xml" path="/组件/"/>
+    <component id="l8l11q" name="com_color.xml" path="/组件/" exported="true"/>
+    <component id="l8l11r" name="com_crayon_bc.xml" path="/组件/" exported="true"/>
+    <component id="l8l11s" name="com_canvas.xml" path="/组件/"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

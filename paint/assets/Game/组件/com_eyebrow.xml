@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="252,86" overflow="hidden" mask="n22_l8l1" hitTest="n22_l8l1">
+  <displayList>
+    <graph id="n23_l8l1" name="n23" xy="0,0" size="252,86" type="rect" lineSize="0"/>
+    <image id="n22_l8l1" name="n22" src="l8l1j" fileName="资源/eyebrow.png" xy="0,0"/>
+  </displayList>
+</component>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="181,79" overflow="hidden" mask="n16_l8l1" hitTest="n16_l8l1">
+  <displayList>
+    <graph id="n17_l8l1" name="n17" xy="0,0" size="181,79" type="rect" lineSize="0"/>
+    <image id="n16_l8l1" name="n16" src="l8l15" fileName="资源/beard.png" xy="0,0"/>
+  </displayList>
+</component>

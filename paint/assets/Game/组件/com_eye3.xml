@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="155,36" overflow="hidden" mask="n21_l8l1" hitTest="n21_l8l1">
+  <displayList>
+    <graph id="n22_l8l1" name="n22" xy="0,0" size="155,36" type="rect" lineSize="0"/>
+    <image id="n21_l8l1" name="n21" src="l8l1i" fileName="资源/eye3.png" xy="0,0"/>
+  </displayList>
+</component>

@@ -1,0 +1,22 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/dragonBones/dragonBones.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/promise/promise.js",
+		"libs/fairygui/fairygui.js"
+	],
+	"game": [
+		"bin-debug/Config/Settings.js",
+		"bin-debug/Game/GameView.js",
+		"bin-debug/Main.js",
+		"bin-debug/fgui/Game/GameBinder.js",
+		"bin-debug/fgui/Game/UI_com_animal.js",
+		"bin-debug/fgui/Game/UI_com_color.js",
+		"bin-debug/fgui/Game/UI_com_crayon_bc.js",
+		"bin-debug/fgui/Game/UI_View_Main.js",
+		"bin-debug/Utils/LoadUtils.js"
+	]
+}

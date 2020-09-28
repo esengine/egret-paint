@@ -1,0 +1,25 @@
+{
+	"groups": [
+		{
+			"keys": "Game,Game_atlas0,Game_atlas0_1",
+			"name": "Game"
+		}
+	],
+	"resources": [
+		{
+			"url": "fgui/Game.fui",
+			"type": "bin",
+			"name": "Game"
+		},
+		{
+			"url": "fgui/Game_atlas0.png",
+			"type": "image",
+			"name": "Game_atlas0"
+		},
+		{
+			"url": "fgui/Game_atlas0_1.png",
+			"type": "image",
+			"name": "Game_atlas0_1"
+		}
+	]
+}
