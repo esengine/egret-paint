@@ -65,6 +65,7 @@
     <component id="l8l11q" name="com_color.xml" path="/组件/" exported="true"/>
     <component id="l8l11r" name="com_crayon_bc.xml" path="/组件/" exported="true"/>
     <component id="l8l11s" name="com_canvas.xml" path="/组件/"/>
+    <component id="ntpc1t" name="com_color_bc.xml" path="/组件/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>
