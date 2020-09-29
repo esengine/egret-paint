@@ -21,6 +21,7 @@ var Game;
         };
         UI_View_Main.prototype.constructFromXML = function (xml) {
             _super.prototype.constructFromXML.call(this, xml);
+            this.m_pen = this.getControllerAt(0);
             this.m_pen_crayon = (this.getChildAt(1));
             this.m_lst_color = (this.getChildAt(7));
             this.m_lst_canvas = (this.getChildAt(8));

@@ -9,13 +9,14 @@
 		"libs/fairygui/fairygui.js"
 	],
 	"game": [
+		"bin-debug/fgui/Game/UI_com_color_bc.js",
+		"bin-debug/fgui/Game/UI_com_crayon_bc.js",
 		"bin-debug/Config/Settings.js",
 		"bin-debug/Game/GameView.js",
 		"bin-debug/Main.js",
 		"bin-debug/fgui/Game/GameBinder.js",
 		"bin-debug/fgui/Game/UI_com_animal.js",
 		"bin-debug/fgui/Game/UI_com_color.js",
-		"bin-debug/fgui/Game/UI_com_crayon_bc.js",
 		"bin-debug/fgui/Game/UI_View_Main.js",
 		"bin-debug/Utils/LoadUtils.js"
 	]

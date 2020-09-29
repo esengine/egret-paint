@@ -8,6 +8,7 @@ module Game {
 			fairygui.UIObjectFactory.setPackageItemExtension(UI_com_animal.URL, UI_com_animal);
 			fairygui.UIObjectFactory.setPackageItemExtension(UI_com_color.URL, UI_com_color);
 			fairygui.UIObjectFactory.setPackageItemExtension(UI_com_crayon_bc.URL, UI_com_crayon_bc);
+			fairygui.UIObjectFactory.setPackageItemExtension(UI_com_color_bc.URL, UI_com_color_bc);
 		}
 	}
 }

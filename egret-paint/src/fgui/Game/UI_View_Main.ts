@@ -3,6 +3,7 @@
 module Game {
 
 	export class UI_View_Main extends fairygui.GComponent {
+		public m_pen:fairygui.Controller;
 		public m_pen_crayon:fairygui.GButton;
 		public m_lst_color:fairygui.GList;
 		public m_lst_canvas:fairygui.GComponent;
@@ -15,6 +16,7 @@ module Game {
 		protected constructFromXML(xml:any):void {
 			super.constructFromXML(xml);
 
+			this.m_pen = this.getControllerAt(0);
 			this.m_pen_crayon = <fairygui.GButton>(this.getChildAt(1));
 			this.m_lst_color = <fairygui.GList>(this.getChildAt(7));
 			this.m_lst_canvas = <fairygui.GComponent>(this.getChildAt(8));

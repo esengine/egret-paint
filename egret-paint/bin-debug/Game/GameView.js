@@ -7,10 +7,19 @@ var game;
     var GameView = (function () {
         function GameView() {
             this.drawCache = new Map();
+            this.penSize = new egret.Point(60, 60);
             this.ui = Game.UI_View_Main.createInstance();
             this.animal = Game.UI_com_animal.createInstance();
             this.onInit();
         }
+        Object.defineProperty(GameView.prototype, "currentPen", {
+            get: function () {
+                return this.ui.m_pen.selectedIndex;
+            },
+            enumerable: true,
+            configurable: true
+        });
+        ;
         GameView.prototype.onInit = function () {
             // 颜色区
             this.ui.m_lst_color.setVirtual();
@@ -65,8 +74,10 @@ var game;
         GameView.prototype.canvasBeginTouch = function (evt) {
             if (this.penComponent)
                 return;
-            this.penComponent = Game.UI_com_crayon_bc.createInstance();
+            this.penComponent = Settings.penList[this.currentPen].createInstance();
             this.penComponent.m_pen.color = Settings.colorList[Settings.currentColor];
+            this.penComponent.width = this.penSize.x;
+            this.penComponent.height = this.penSize.y;
             this.ui.m_lst_canvas.addChild(this.penComponent);
             var result = this.ui.m_lst_canvas.globalToLocal(evt.stageX, evt.stageY);
             this.penComponent.x = result.x;
@@ -96,11 +107,13 @@ var game;
             cache.push("" + Math.floor(penToTouchPoint.x) + Math.floor(penToTouchPoint.y));
             this.drawCache.set(this.touchComponent, cache);
             // 开始添加绘图
-            var newPenComponent = Game.UI_com_crayon_bc.createInstance();
+            var newPenComponent = Settings.penList[this.currentPen].createInstance();
+            newPenComponent.width = this.penSize.x;
+            newPenComponent.height = this.penSize.y;
             newPenComponent.name = "newPen";
             newPenComponent.setPivot(0, 0);
-            newPenComponent.x = Math.floor(penToTouchPoint.x);
-            newPenComponent.y = Math.floor(penToTouchPoint.y);
+            newPenComponent.x = Math.floor(penToTouchPoint.x) + newPenComponent.width / 2;
+            newPenComponent.y = Math.floor(penToTouchPoint.y) + newPenComponent.height / 2;
             newPenComponent.m_pen.color = Settings.colorList[Settings.currentColor];
             this.touchComponent.addChild(newPenComponent);
         };

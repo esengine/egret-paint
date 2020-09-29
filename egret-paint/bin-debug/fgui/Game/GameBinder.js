@@ -12,6 +12,7 @@ var Game;
             fairygui.UIObjectFactory.setPackageItemExtension(Game.UI_com_animal.URL, Game.UI_com_animal);
             fairygui.UIObjectFactory.setPackageItemExtension(Game.UI_com_color.URL, Game.UI_com_color);
             fairygui.UIObjectFactory.setPackageItemExtension(Game.UI_com_crayon_bc.URL, Game.UI_com_crayon_bc);
+            fairygui.UIObjectFactory.setPackageItemExtension(Game.UI_com_color_bc.URL, Game.UI_com_color_bc);
         };
         return GameBinder;
     }());

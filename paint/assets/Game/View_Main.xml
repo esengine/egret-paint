@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080">
+  <controller name="pen" exported="true" pages="0,crayon,1,color" selected="0"/>
   <displayList>
     <image id="n3_l8l1" name="n3" src="l8l13" fileName="资源/background.png" xy="0,0"/>
-    <component id="n4_l8l1" name="pen_crayon" src="l8l11b" fileName="组件/btn_pen_crayon.xml" xy="1598,54"/>
-    <component id="n5_l8l1" name="n5" src="l8l11c" fileName="组件/btn_pen_color.xml" xy="1617,164"/>
+    <component id="n4_l8l1" name="pen_crayon" src="l8l11b" fileName="组件/btn_pen_crayon.xml" xy="1598,54">
+      <Button controller="pen" page="0"/>
+    </component>
+    <component id="n5_l8l1" name="n5" src="l8l11c" fileName="组件/btn_pen_color.xml" xy="1617,164">
+      <Button controller="pen" page="1"/>
+    </component>
     <component id="n7_l8l1" name="n7" src="l8l11d" fileName="组件/btn_pen_water.xml" xy="1618,276"/>
     <component id="n8_l8l1" name="n8" src="l8l11e" fileName="组件/btn_pen_brush.xml" xy="1617,390"/>
     <component id="n9_l8l1" name="n9" src="l8l11f" fileName="组件/btn_pen_brush1.xml" xy="1608,493"/>

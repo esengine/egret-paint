@@ -6,8 +6,12 @@ module game {
         /** 当前所触摸的组件 */
         private touchComponent: fairygui.GComponent;
         /** 画笔组件 */
-        private penComponent: Game.UI_com_crayon_bc;
+        private penComponent;
         private drawCache: Map<fairygui.GComponent, string[]> = new Map<fairygui.GComponent, string[]>();
+        private get currentPen(): number {
+            return this.ui.m_pen.selectedIndex;
+        };
+        private penSize: egret.Point = new egret.Point(60, 60);
         private readonly animal: Game.UI_com_animal;
 
         constructor() {
@@ -76,8 +80,10 @@ module game {
 
         private canvasBeginTouch(evt: egret.TouchEvent){
             if (this.penComponent) return;
-            this.penComponent = Game.UI_com_crayon_bc.createInstance();
+            this.penComponent = Settings.penList[this.currentPen].createInstance();
             this.penComponent.m_pen.color = Settings.colorList[Settings.currentColor];
+            this.penComponent.width = this.penSize.x;
+            this.penComponent.height = this.penSize.y;
             this.ui.m_lst_canvas.addChild(this.penComponent);
             let result = this.ui.m_lst_canvas.globalToLocal(evt.stageX, evt.stageY);
             this.penComponent.x = result.x;
@@ -107,11 +113,13 @@ module game {
             this.drawCache.set(this.touchComponent, cache);
 
             // 开始添加绘图
-            let newPenComponent = Game.UI_com_crayon_bc.createInstance();
+            let newPenComponent = Settings.penList[this.currentPen].createInstance();
+            newPenComponent.width = this.penSize.x;
+            newPenComponent.height = this.penSize.y;
             newPenComponent.name = "newPen";
             newPenComponent.setPivot(0, 0);
-            newPenComponent.x = Math.floor(penToTouchPoint.x);
-            newPenComponent.y = Math.floor(penToTouchPoint.y);
+            newPenComponent.x = Math.floor(penToTouchPoint.x) + newPenComponent.width / 2;
+            newPenComponent.y = Math.floor(penToTouchPoint.y) + newPenComponent.height / 2;
             newPenComponent.m_pen.color = Settings.colorList[Settings.currentColor];
             this.touchComponent.addChild(newPenComponent);
         }
